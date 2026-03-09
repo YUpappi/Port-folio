@@ -49,21 +49,21 @@ export const projects: Project[] = [
   },
   {
     id: 6,
-    title: "Thriverly",
+    title: "Ticket Generator",
     description:
-      "Thriverly is a software development company that specializes in developing advanced software solutions for the retail and hospitality industries.",
-    image: "images/thriverly.png",
-    link: "https://yupappi.github.io/Thriverly/",
-    tags: ["HTML", "CSS"],
+      "Ticket Generator is a simple and user-friendly ticketing app that helps you create and manage tickets for your projects.",
+    image: "images/ticket-generator.png",
+    link: "https://conference-ticket-generator-l4m5tkmur-adeleke-yusufs-projects.vercel.app/",
+    tags: ["REACT", "TAILWIND CSS"],
   },
   {
     id: 7,
-    title: "Restaurant",
+    title: "Color Guessing Game",
     description:
-      "MyRestaurant is a restaurant website that offers a wide range of dishes and offers a convenient and convenient experience for customers.",
-    image: "images/restaurant.png",
-    link: "https://yupappi.github.io/myRestaurant/",
-    tags: ["HTML", "CSS"],
+      "A fun and interactive game where players guess the correct color based on a given hex code.",
+    image: "images/color-guessing.png",
+    link: "https://color-guessing-rust.vercel.app//",
+    tags: ["REACT", "CSS"],
   },
   {
     id: 8,
