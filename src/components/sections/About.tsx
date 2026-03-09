@@ -5,7 +5,10 @@ const EXPERIENCE_START_YEAR = 2025;
 
 const About = () => {
   const currentYear = new Date().getFullYear();
-  const yearsOfExperience = Math.max(1, currentYear - EXPERIENCE_START_YEAR + 1);
+  const yearsOfExperience = Math.max(
+    1,
+    currentYear - EXPERIENCE_START_YEAR + 1,
+  );
   const projectsCompleted = projects.length;
 
   return (
@@ -24,12 +27,16 @@ const About = () => {
 
         <div className="mt-10 grid grid-cols-2 gap-6">
           <div className="rounded-2xl border border-white/15 p-6">
-            <h3 className="text-3xl font-bold text-violet-300">{yearsOfExperience}+</h3>
-            <p className="text-sm text-slate-300">Years Experience</p>
+            <h3 className="text-3xl font-bold text-violet-300">
+              {yearsOfExperience}+
+            </h3>
+            <p className="text-sm text-slate-300">Years of Experience</p>
           </div>
 
           <div className="rounded-2xl border border-white/15 p-6">
-            <h3 className="text-3xl font-bold text-violet-300">{projectsCompleted}+</h3>
+            <h3 className="text-3xl font-bold text-violet-300">
+              {projectsCompleted}+
+            </h3>
             <p className="text-sm text-slate-300">Projects Completed</p>
           </div>
         </div>
