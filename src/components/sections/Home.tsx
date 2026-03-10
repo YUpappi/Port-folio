@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail, Sparkles, Code2, Zap } from "lucide-react";
 import { useUI } from "../../context/UIProvider";
 
-const positions = ["Frontend Engineer"];
+const positions = ["Frontend Developer"];
 
 const Home = () => {
   const { scrollToSection } = useUI();
@@ -40,9 +40,13 @@ const Home = () => {
             <span className="text-slate-300">for collaboration</span>
           </div>
 
-          <ul className="mx-auto mt-5 max-w-md space-y-2 text-center md:text-left text-xl text-slate-100 sm:text-2xl">
+          <ul className="mx-auto mt-5 max-w-md space-y-2 text-xl text-slate-100 sm:text-2xl">
             {positions.map((position) => (
-              <li key={position} className="flex items-center gap-3">
+              <li
+                key={position}
+                className="flex items-center  gap-3 co
+                justify-center md:justify-start"
+              >
                 <span className="h-2.5 w-2.5 rounded-full bg-white" />
                 <span>{position}</span>
               </li>

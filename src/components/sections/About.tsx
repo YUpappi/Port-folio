@@ -42,7 +42,7 @@ const About = () => {
         </div>
 
         <a
-          href="/ADELEKE_YUSUF_ADEYEMI_FRONTEND_CV.pdf"
+          href="/ADELEKE YUSUF ADEYEMI FRONTEND CV.pdf"
           download
           className="mx-auto mt-10 inline-flex items-center space-x-2 rounded-full bg-violet-500 px-6 py-3 text-white transition-colors hover:bg-violet-400"
         >
