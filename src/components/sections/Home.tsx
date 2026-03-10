@@ -28,7 +28,7 @@ const Home = () => {
           </p>
 
           <h1 className="text-5xl font-semibold leading-[0.95] text-white sm:text-6xl md:text-7xl">
-            We Build
+            I Build
             <br />
             Great Products
           </h1>
@@ -40,7 +40,7 @@ const Home = () => {
             <span className="text-slate-300">for collaboration</span>
           </div>
 
-          <ul className="mx-auto mt-5 max-w-md space-y-2 text-left text-xl text-slate-100 sm:text-2xl">
+          <ul className="mx-auto mt-5 max-w-md space-y-2 text-center md:text-left text-xl text-slate-100 sm:text-2xl">
             {positions.map((position) => (
               <li key={position} className="flex items-center gap-3">
                 <span className="h-2.5 w-2.5 rounded-full bg-white" />
